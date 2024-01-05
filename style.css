@@ -1,0 +1,67 @@
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .cal {
+        text-align: center;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-style: italic;
+        font-size: 6vh;
+        margin-top: 3vh;
+        color: rgb(226, 136, 17);
+      }
+      .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;
+      }
+      .btn {
+        padding: 1vh;
+        margin: 1vh;
+        height: 6vh;
+        width: 6vh;
+      }
+      .container {
+        margin-top: 10vh;
+
+        height: 48vh;
+        padding: 2vh;
+        border: 2px solid black;
+        background-color: black;
+        border-radius: 2vh;
+      }
+    
+      }
+      input {
+        padding: 2vh;
+        width: 30vh;
+        height: 1vh;
+        border-radius: 2vh;
+        background-color: black;
+        color: white;
+        border: none;
+        font-size: 5vh;
+      }
+      #or {
+        color: orange;
+        border-radius: 50%;
+        border: none;
+        background-color: black;
+      }
+      #an {
+        color: aliceblue;
+        background-color: black;
+        border-radius: 50%;
+        border: none;
+      }
+      #or:hover {
+        cursor: pointer;
+        background-color: white;
+      }
+      button {
+        font-size: 4vh;
+      }
+    </style>
